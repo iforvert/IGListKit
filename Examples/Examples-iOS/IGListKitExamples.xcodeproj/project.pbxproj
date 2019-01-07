@@ -100,13 +100,13 @@
 		98B4DBF41DC2937A002BA58A /* Demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B4DBF31DC2937A002BA58A /* Demo.storyboard */; };
 		C82AE9741251907F18F77350 /* Pods_IGListKitMessageExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B1FA2EFFA5E994FEE587DE /* Pods_IGListKitMessageExample.framework */; };
 		CBA8F64BE2F00E8B3DEFF6ED /* Pods_IGListKitExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7316EF8201F89655D39E53 /* Pods_IGListKitExamples.framework */; };
-		FF73FF9C1FBA4B4400F2AB06 /* UserFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73FF9B1FBA4B4400F2AB06 /* UserFooterView.swift */; };
-		FF73FF9E1FBA4B5500F2AB06 /* UserFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF73FF9D1FBA4B5500F2AB06 /* UserFooterView.xib */; };
 		EB0289A2202A11E0007E17D5 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB02899F202A11DF007E17D5 /* PersonModel.m */; };
 		EB0289A3202A11E0007E17D5 /* PersonModel.value in Resources */ = {isa = PBXBuildFile; fileRef = EB0289A0202A11DF007E17D5 /* PersonModel.value */; };
 		EB0289A6202A14E1007E17D5 /* ObjcGeneratedModelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0289A5202A14E1007E17D5 /* ObjcGeneratedModelDemoViewController.m */; };
 		EB0289A9202A1507007E17D5 /* PersonSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0289A8202A1507007E17D5 /* PersonSectionController.m */; };
 		EB0289AC202A1705007E17D5 /* PersonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0289AA202A1705007E17D5 /* PersonCell.m */; };
+		FF73FF9C1FBA4B4400F2AB06 /* UserFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF73FF9B1FBA4B4400F2AB06 /* UserFooterView.swift */; };
+		FF73FF9E1FBA4B5500F2AB06 /* UserFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF73FF9D1FBA4B5500F2AB06 /* UserFooterView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -666,8 +666,9 @@
 				TargetAttributes = {
 					2961B3891D68B031001C9451 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XQXQPB7PG5;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					95F7F9101DE5006B00A64FEE = {
 						CreatedOnToolsVersion = 8.1;
@@ -677,11 +678,13 @@
 					};
 					986FB7101DBBA60900A65C18 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XQXQPB7PG5;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					986FB72E1DBBAD8600A65C18 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XQXQPB7PG5;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -1134,9 +1137,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQXQPB7PG5;
 				INFOPLIST_FILE = IGListKitExamples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1156,9 +1160,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQXQPB7PG5;
 				INFOPLIST_FILE = IGListKitExamples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1213,7 +1218,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XQXQPB7PG5;
 				INFOPLIST_FILE = "$(SRCROOT)/IGListKitMessageExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -1234,7 +1239,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XQXQPB7PG5;
 				INFOPLIST_FILE = "$(SRCROOT)/IGListKitMessageExample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -1253,7 +1258,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XQXQPB7PG5;
 				INFOPLIST_FILE = IGListKitTodayExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -1273,7 +1278,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XQXQPB7PG5;
 				INFOPLIST_FILE = IGListKitTodayExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
